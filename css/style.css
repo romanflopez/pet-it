@@ -547,7 +547,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 2, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
   .section_title h3 {
-    font-size: 27px;
+    font-size: 40px;
     line-height: 33px;
   }
 }
@@ -555,7 +555,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 2, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
   .section_title h3 {
-    font-size: 32px;
+    font-size: 40px;
     line-height: 40px;
   }
 }
@@ -563,7 +563,7 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 2, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
   .section_title h3 {
-    font-size: 33px;
+    font-size: 40px;
     line-height: 40px;
   }
 }
@@ -951,39 +951,43 @@ h3 {
 .header-area .main-header-area .logo-img {
   text-align: center;
 }
+.header-area .main-header-area .logo-img img{
+  text-align: center;
+  width: 35%;
+}
 
 @media (max-width: 767px) {
   /* line 31, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo-img {
-    text-align: left;
+  .header-area .main-header-area .logo-img img {
+    width: 200px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 31, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
-    text-align: left;
+    text-align: center;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 31, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
-    text-align: left;
+    text-align: center;
   }
 }
 
 @media (max-width: 767px) {
   /* line 45, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
-    width: 70px;
+    width: 200px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 45, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
-    width: 70px;
+    width: 200px;
   }
 }
 
@@ -1361,35 +1365,35 @@ h3 {
 @media (max-width: 767px) {
   /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: 600px;
+    height: 400px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: 600px;
+    height: 400px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: 550px;
+    height: 350px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: 600px;
+    height: 400px;
   }
 }
 
 @media (min-width: 1501px) and (max-width: 1700px) {
   /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: 600px;
+    height: 400px;
   }
 }
 
@@ -1887,8 +1891,10 @@ h3 {
 @media (max-width: 767px) {
   /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
   .service_area {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0px; 
+  }
+  .pet_thumb{
+    padding: 60px 0px;
   }
 }
 
